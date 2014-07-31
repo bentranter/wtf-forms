@@ -6,6 +6,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.add_files([
+    // I should probably remove this...
     'font/fontello.eot',
     'font/fontello.svg',
     'font/fontello.ttf',
