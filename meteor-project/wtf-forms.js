@@ -1,4 +1,4 @@
-if (Meteor.isClient) {
+/*if (Meteor.isClient) {
   Template.hello.greeting = function () {
     return "Welcome to wtf-forms.";
   };
@@ -17,3 +17,4 @@ if (Meteor.isServer) {
     // code to run on server at startup
   });
 }
+*/
