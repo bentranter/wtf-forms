@@ -6,9 +6,21 @@
 
 ---
 
+### Installation
+
+With [Meteorite](https://github.com/oortcloud/meteorite) installed:
+
+```sh
+$ cd /packages
+$ mrt add wtf-forms
+```
+
+---
+
 ### Contributing
 
 Open an issue or a pull request to suggest changes or additions. **Please submit pull requests to the `gh-pages` branch.**
+The master branch is [here](https://github.com/mdo/wtf-forms).
 
 ### License
 
