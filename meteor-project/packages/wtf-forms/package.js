@@ -4,12 +4,13 @@ Package.describe({
 });
 
 
-Package.on_use(function (api) {
+Package.on_use(function (api, where) {
   api.add_files([
     'font/fontello.eot',
     'font/fontello.svg',
     'font/fontello.ttf',
     'font/fontello.woff',
-    'wtf-forms.css'
+    'wtf-forms.css',
+    'docs.css'
   ], 'client');
 });
