@@ -2,7 +2,7 @@
 
 **WTF, forms?** provides friendlier HTML form controls with a little CSS magic. It's designed for IE9+, as well as the latest Chrome, Safari, and Firefox.
 
-**[Start reading ☞](http://wtfforms.com)**
+**[Example:](http://wtf-forms.meteor.com/)**
 
 ---
 
@@ -25,5 +25,6 @@ The master branch is [here](https://github.com/mdo/wtf-forms).
 ### License
 
 [MIT licensed.](LICENSE.md) Copyright 2014 @mdo.
+Packaged by me for Meteor.
 
 <3
