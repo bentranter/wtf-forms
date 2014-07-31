@@ -2,7 +2,7 @@
   "name": "wtf-forms",
   "description": "Friendlier HTML form controls with a little CSS magic.",
   "homepage": "http://wtfforms.com",
-  "author": "Mark Otto (https://twitter.com/mdo",
+  "author": "Ben Tranter",
   "version": "2.0.1",
   "git": "https://github.com/bentranter/wtf-forms.git"
 }
