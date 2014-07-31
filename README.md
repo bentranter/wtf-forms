@@ -2,7 +2,7 @@
 
 **WTF, forms?** provides friendlier HTML form controls with a little CSS magic. It's designed for IE9+, as well as the latest Chrome, Safari, and Firefox.
 
-**[Example:](http://wtf-forms.meteor.com/)**
+**See in action here: [wtf-forms.meteor.com](http://wtf-forms.meteor.com)**
 
 ---
 
