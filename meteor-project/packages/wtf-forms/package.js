@@ -10,7 +10,6 @@ Package.on_use(function (api, where) {
     'font/fontello.svg',
     'font/fontello.ttf',
     'font/fontello.woff',
-    'wtf-forms.css',
-    'docs.css'
+    'wtf-forms.css'
   ], 'client');
 });
