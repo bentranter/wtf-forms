@@ -176,11 +176,45 @@
 
 <p><strong>Heads up!</strong> The custom file input is currently unable to update the <em>Choose file...</em> text with the filename. Without JavaScript, this might not be possible to change, but I&#39;m open to ideas.</p>
 
+<h3>Progress Bars</h3>
+
+<progress class="progress" value="25" max="100">
+  25%
+</progress>
+
+<div class="highlight">
+<pre>
+<code class="language-html" data-lang="html"><span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">&quot;progress&quot;</span><span class="nt"> </span><span class="na">value=</span><span class="s">&quot;25&quot;</span> <span class="na">max=</span><span class="s">&quot;100&quot;</span><span class="nt">&gt;</span>
+  25%
+<span class="nt">&lt;/progress&gt;</span>
+</code></pre></div>
+
+<progress class="progress" value="100" max="100">
+  100%
+</progress>
+
+<div class="highlight">
+<pre>
+<code class="language-html" data-lang="html"><span class="nt">&lt;progress</span> <span class="na">class=</span><span class="s">&quot;progress&quot;</span><span class="nt"> </span><span class="na">value=</span><span class="s">&quot;100&quot;</span> <span class="na">max=</span><span class="s">&quot;100&quot;</span><span class="nt">&gt;</span>
+  100%
+<span class="nt">&lt;/progress&gt;</span>
+</code></pre></div>
+
+<p>The progress bar is pretty straightforward, but definitely has some quirks between browsers.</p>
+
+<ul>
+<li>We reset the default appearance in all browsers.</li>
+<li>We remove the <code>&lt;border&gt;</code> to remove it in Firefox and Opera.</li>
+<li>IE10 uses <code>&lt;color&gt;</code> to set the bar background-color.</li>
+<li>The Webkit and Firefox styles must be seperate, or its busts Webkit styles.</li>
+<li>We use several hacks in IE9 to simulate hiding of value as in native <code>&lt;progress&gt;</code>.</li> 
+</ul>
+
 <h3>FAQs</h3>
 
 <h4>What about every other form control?</h4>
 
-<p>For the time being, <strong>WTF, forms?</strong> is limited to checkboxes, radio buttons, select menus, and file inputs. Additional custom inputs will depend on browser support.</p>
+<p>For the time being, <strong>WTF, forms?</strong> is limited to checkboxes, radio buttons, select menus, file inputs, and progress bars. Additional custom inputs will depend on browser support.</p>
 
 <h4>Why are there no <code>for</code> attributes?</h4>
 
